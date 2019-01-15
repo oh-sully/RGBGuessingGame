@@ -1,0 +1,104 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    text-transform: uppercase;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+#header {
+    background-color: steelblue;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameName {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 33.333%;
+    font-size: 2em;
+}
+
+#rgb {
+    font-size: 3em;
+}
+
+#menu {
+    display: flex;
+    justify-content:space-between;
+    height: 25px;
+}
+
+.buffer {
+    width: 25%;
+}
+
+#menuSpacing {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+}
+
+.menuText {
+    color: steelblue;
+    padding: 0 5px 0 5px;
+    font-size: 1.2em;
+    background: none;
+    border: none;
+}
+
+.menuText:hover {
+    color: white;
+    background: steelblue;
+}
+
+.result {
+    text-transform: capitalize;
+}
+
+.displayNone {
+    display: none;
+}
+
+#difficulty {
+    display: flex;
+}
+
+.buttonRow{
+    display: flex;
+    justify-content: center;
+}
+
+.colorButton {
+    border-radius: 20px;
+    padding: 82px;
+    margin: 20px 10px 0px 10px;
+    border:none;
+}
+
+.colorButtonVis {
+    background:
+}
+
+.selected {
+    color: white;
+    background: steelblue;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#gameArea {
+    background-color: black;
+    display: block;
+    height: 100%;
+}
