@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Color Game</title>
+    <link type="text/css" href="assets/css/color_guessing_game.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="header">
+        <div class="gameName">The Great</div>
+        <div id="rgb" class="gameName"><strong>
+         RGB(<span></span>, <span></span>, <span></span>)
+        </strong></div>
+        <div class="gameName">Guessing Game</div>
+    </div>
+    <div id="menu">
+        <div class="buffer"></div>
+        <div id="menuSpacing">
+            <button class="menuText"><strong>New Colors</strong></button>
+            <div class="result displayNone">Try Again</div>
+            <div class="result displayNone">Congrats!</div>
+            <div id="difficulty">
+                <button class="menuText" value="3"><strong>Easy</strong></button>
+                <button class="menuText selected" selected value="6"><strong>Hard</strong></button>
+            </div>
+        </div>
+        <div class="buffer"></div>
+    </div>
+    <div id="gameArea">
+        <div class="buttonRow">
+            <button class="colorButton" value="0"></button>
+            <button class="colorButton" value="1"></button>
+            <button class="colorButton" value="2"></button>
+        </div>
+        <div class="buttonRow">
+            <button class="colorButton" value="3"></button>
+            <button class="colorButton" value="4"></button>
+            <button class="colorButton" value="5"></button>
+        </div>
+    </div>
+<script type="text/javascript" src="assets/js/color_guessing_game.js"></script>
+</body>
+</html>
